@@ -1,0 +1,20 @@
+{
+	"easycom": {
+		"^u-(.*)": "uview-ui/components/u-$1/u-$1.vue"
+	},
+
+	"pages": [
+		{ "path": "src/pages/home" },
+		{ "path": "src/pages/a" },
+		{ "path": "src/pages/b" }
+	],
+
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#f8f8f9",
+		"navigationStyle": "custom",
+		"transparentTitle": "always"
+	}
+}
